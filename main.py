@@ -11,7 +11,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         chat_id = update.effective_chat.id
 
         await context.bot.send_sticker(chat_id=chat_id, sticker='CAACAgIAAxkBAAENA5NnHCa3BUAc_ZbZrm5F2tbotfuBHQACrFAAAhvEOErgakBPSL5PRTYE')
-        await context.bot.send_message(chat_id=chat_id, text='*Я не владею функциями в ЛС!\nПрисоединяйся к @null_dev*', parse_mode='MarkdownV2')
+        await context.bot.send_message(chat_id=chat_id, text='*Я не владею функциями в ЛС\!\nПрисоединяйся к @null_dev*', parse_mode='MarkdownV2')
 
 
 async def main() -> None:
